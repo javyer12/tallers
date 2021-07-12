@@ -1,0 +1,110 @@
+.logo {
+  width: 55px;
+  height: 55px;
+}
+header {
+  background-color: white;
+  display: grid;
+  border-radius: 3%;
+  grid-template-columns: 1fr 1fr;
+  height: 70px;
+  padding: 0 1% 0 1%;
+  width: 98%;
+}
+.item-header {
+  display: flex;
+  justify-content: space-between;
+}
+.item-header a {
+  color: red;
+  text-decoration: none;
+  margin: auto;
+}
+body {
+  background-color: rgb(14, 227, 255);
+  /* background-image: url("../img/fondo.jpg");
+  background-position-x: 100vw;
+  background-position-y: 100vh; */
+  margin: 0%;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 95vh;
+  justify-content: space-between;
+
+  /* grid-template-rows: 1fr 1fr 1fr; */
+}
+
+.nav-item {
+  /* background-color: rgb(255, 255, 255); */
+  background: rgba(247, 242, 242, 0.8);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 3%;
+  height: 88%;
+  width: inherit;
+  margin: 1.5%;
+  text-align: center;
+}
+footer {
+  background-color: rgb(0, 0, 0);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.option_footer {
+  display: flex;
+}
+.option_footer a {
+  justify-content: space-between;
+  margin: 2%;
+  text-align: center;
+  padding-top: 10px;
+}
+.footer-right a {
+  text-decoration: none;
+  text-align: center;
+}
+.footer-right p {
+  text-align: center;
+}
+h2 {
+  text-align: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-left: 7%;
+}
+.nav-item input {
+  width: 70%;
+  height: 6%;
+}
+.btn-right {
+  background-color: #d2004c;
+  color: #ffffff;
+  width: 40%;
+  height: 8%;
+  margin-right: 15px;
+}
+.btn-left {
+  background-color: white;
+  border: 2px solid #d2004c;
+  width: 41%;
+  height: 8%;
+  margin: 5%;
+}
+.result {
+  width: 80%;
+  margin: auto;
+  height: fit-content;
+  border: gray solid 2px;
+  background-color: white;
+}
+#reload {
+  margin-top: 15px;
+}

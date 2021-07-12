@@ -14,15 +14,24 @@ h1 {
 }
 .exercises-link {
   display: grid;
+  height: 40%;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
 }
+
 .exercise1 {
-  background-color: blue;
-  text-align: center;
+  /* background-color: blue; */
+  background-image: url("../img/center.png");
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+.exercise1 a {
+  text-decoration: none;
 }
 .exercise2 {
-  background-color: rgb(0, 238, 255);
+  background-color: rgb(255, 166, 0);
   text-align: center;
 }
 .exercise3 {

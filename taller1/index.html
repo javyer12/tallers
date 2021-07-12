@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="../src//style/workShopOne.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taller</title>
 </head>
 <body>
     <header>
-    <div class="logo-header">logo</div>
+    <div class="logo-header">
+        <img class="logo" src="../src/img/leon.png">
+    </div>
     <div class="item-header">
-        <p>Home</p>
-        <p>Workshop #1</p>
-        <p>Workshop #2</p>
-        <p>Workshop #3</p>
+        <a href="../home/index.html">Home</a>
+        <a href="../home/index.html">Workshop #1</a>
+        <a>Workshop #2</a>
+        <a>Workshop #3</a>
     </div>
     </header>
     <body>
-    <div>
         <h1>Calculate area and perimeter</h1>
-        <nav>
+    <div class="container">
+        <nav class="nav-item">
             <h2>Square</h2>
             <label for="square">
                 <h3>How long is one side of your square</h3>
@@ -31,14 +34,22 @@
                <option value="mm">mm</option>
            </select>
         <br/>
-           <button type="button" id="area">Area</button>
-           <button type="button" id="perimeter">Perimeter</button>
+           <button type="button" class="btn-left" id="area" onclick="squareArea()">Area</button>
+           <button type="button" class="btn-right" id="perimeter" onclick="squarePerimter()">Perimeter</button>
         <br/>
         <p>Result: </p>
-        <p id="result_square"> </p> 
+        <div class="result">
+            <p id="result_square"> </p> 
+            <p id="result"> </p> 
+        </div>
+        <button
+        id="reload"
+        onclick="location.reload()">
+        <img src="https://img.icons8.com/ios-filled/50/000000/update-left-rotation.png"/>
+        </button>
         </nav>
 
-        <nav>
+        <nav class="nav-item">
             <h2>Triangle</h2>
             <label for="triangle">
                 <h3>How long is one side of your triangle?</h3>
@@ -68,14 +79,16 @@
                 <option value="mm">mm</option>
             </select>
             <br/>
-            <button type="button" id="area-triangle">Area</button>
-            <button type="button" id="perimeter-triangle">Perimeter</button>
+            <button type="button"  class="btn-left"id="area-triangle">Area</button>
+            <button type="button"  class="btn-right" id="perimeter-triangle">Perimeter</button>
          <br/>
          <p>Result: </p>
-         <p id="triangle-result"></p>
+         <div class="result">
+             <p id="triangle-result"></p>
+            </div>
         </nav>
 
-        <nav>
+        <nav class="nav-item">
             <h2>Circle</h2>
             <label for="radio">
           <h3>What is the radio measure?</h3>
@@ -86,25 +99,32 @@
                 <option value="m">m</option>
                 <option value="mm">mm</option>
             </select>
-            <button type="button" id="area">Areea</button>
-            <button type="button" id="circunferece">circunferece</button> 
             <br/>
-            <button type="button" id="diameter">Diameter</button>
+            <button  class="btn-left" type="button" id="area" onclick="circleArea()" >Area</button>
+            <button type="button" class="btn-right" id="diameter"  onclick="circleDiameter()">Diameter</button>
+            <br/>
+            <button class="btn-left" type="button" id="circunferece" onclick="circleCircunference()">Circunferece</button> 
             <br/>
            <p> Result: </p>
-           <p id="circle-result"> </p>
+           <div class="result">
+               <p id="area-result"> </p>
+               <p id="diameter-result"> </p>
+               <p id="circunference-result"> </p>
+            </div>
         </nav>
+    </div>
     </body>
     <footer>
         <div class="logo1">
-            <img class="logo" src="../src/img/tiktok.png" alt="leon image">
+            <img class="logo" src="../src/img/physoft.png" alt="leon image">
         </div>
      <div class="option_footer">
      <a>Contact </a> 
      <a>Blog</a>
      <a>Donations</a>
     </div>
-     <div class="footer-right"> it was done by <a href="/">francisco</a></div>
+     <div class="footer-right"><p>it was done by <a href="/">francisco</a></p></div>
     </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
