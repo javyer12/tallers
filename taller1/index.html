@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller</title>
+</head>
+<body>
+    <header>
+    <div class="logo-header">logo</div>
+    <div class="item-header">
+        <p>Home</p>
+        <p>Workshop #1</p>
+        <p>Workshop #2</p>
+        <p>Workshop #3</p>
+    </div>
+    </header>
+    <body>
+    <div>
+        <h1>Calculate area and perimeter</h1>
+        <nav>
+            <h2>Square</h2>
+            <label for="square">
+                <h3>How long is one side of your square</h3>
+           </label>
+           <input type="number"  id="square">
+           <select>
+               <option value="cm">cm</option>
+               <option value="m">m</option>
+               <option value="mm">mm</option>
+           </select>
+        <br/>
+           <button type="button" id="area">Area</button>
+           <button type="button" id="perimeter">Perimeter</button>
+        <br/>
+        <p>Result: </p>
+        <p id="result_square"> </p> 
+        </nav>
+
+        <nav>
+            <h2>Triangle</h2>
+            <label for="triangle">
+                <h3>How long is one side of your triangle?</h3>
+            </label>
+            <input type="number" id="triangle">
+            <select>
+                <option value="cm">cm</option>
+                <option value="m">m</option>
+                <option value="mm">mm</option>
+            </select>
+            <label for="triangle-side">
+                <h3>How long is the other one?</h3>
+            </label>
+            <input type="number" id="triangle-side">
+            <select>
+                <option value="cm">cm</option>
+                <option value="m">m</option>
+                <option value="mm">mm</option>
+            </select>
+            <label for="base">
+                <h3>How long is the base?</h3>
+            </label>
+            <input type="number" id="base">
+            <select>
+                <option value="cm">cm</option>
+                <option value="m">m</option>
+                <option value="mm">mm</option>
+            </select>
+            <br/>
+            <button type="button" id="area-triangle">Area</button>
+            <button type="button" id="perimeter-triangle">Perimeter</button>
+         <br/>
+         <p>Result: </p>
+         <p id="triangle-result"></p>
+        </nav>
+
+        <nav>
+            <h2>Circle</h2>
+            <label for="radio">
+          <h3>What is the radio measure?</h3>
+            </label>
+            <input type="number" id="radio">
+            <select>
+                <option value="cm">cm</option>
+                <option value="m">m</option>
+                <option value="mm">mm</option>
+            </select>
+            <button type="button" id="area">Areea</button>
+            <button type="button" id="circunferece">circunferece</button> 
+            <br/>
+            <button type="button" id="diameter">Diameter</button>
+            <br/>
+           <p> Result: </p>
+           <p id="circle-result"> </p>
+        </nav>
+    </body>
+    <footer>
+        <div class="logo1">
+            <img class="logo" src="../src/img/tiktok.png" alt="leon image">
+        </div>
+     <div class="option_footer">
+     <a>Contact </a> 
+     <a>Blog</a>
+     <a>Donations</a>
+    </div>
+     <div class="footer-right"> it was done by <a href="/">francisco</a></div>
+    </footer>
+</body>
+</html>

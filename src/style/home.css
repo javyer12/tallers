@@ -1,0 +1,56 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.logo {
+  width: 55px;
+  height: 55px;
+}
+.logo2 {
+  margin-left: 80%;
+}
+h1 {
+  text-align: center;
+}
+.exercises-link {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.exercise1 {
+  background-color: blue;
+  text-align: center;
+}
+.exercise2 {
+  background-color: rgb(0, 238, 255);
+  text-align: center;
+}
+.exercise3 {
+  background-color: rgb(255, 20, 196);
+  text-align: center;
+}
+.exercise4 {
+  background-color: rgb(99, 233, 66);
+  text-align: center;
+}
+footer {
+  background-color: black;
+  color: aliceblue;
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 1fr;
+  height: 15%;
+  width: 100%;
+}
+.option_footer {
+  width: 30%;
+}
+.option_footer {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  text-decoration: none;
+}
+.footer-right {
+  text-align: center;
+  margin: auto;
+}
