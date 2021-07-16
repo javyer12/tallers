@@ -38,6 +38,7 @@ const PI = Math.PI
 function circleDiameter() {
     const input = document.getElementById("radio")
     const value = input.value
+    console.log(value)
         const radio = value * 2
         document.getElementById("diameter-result").textContent = "the diameter of your circle is: " + radio
 

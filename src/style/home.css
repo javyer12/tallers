@@ -26,21 +26,42 @@ h1 {
   background-position-y: top;
   background-repeat: no-repeat;
   text-align: left;
+  margin-left: 1%;
 }
-.exercise1 a {
+.exercise1,
+.exercise2 a {
   text-decoration: none;
 }
 .exercise2 {
-  background-color: rgb(255, 166, 0);
-  text-align: center;
+  /* background-color: rgb(255, 166, 0); */
+  background-image: url("../img/leon.png");
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  margin-left: 1%;
 }
+
 .exercise3 {
-  background-color: rgb(255, 20, 196);
-  text-align: center;
+  /* background-color: rgb(255, 20, 196); */
+  background-image: url("../img/fondo.jpg");
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  text-align: left;
+  color: white;
+  margin-left: 1%;
 }
 .exercise4 {
-  background-color: rgb(99, 233, 66);
-  text-align: center;
+  /* background-color: rgb(99, 233, 66); */
+  background-image: url("../img/physoft.png");
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  text-align: left;
+  color: rgb(0, 0, 0);
+  margin-left: 1%;
 }
 footer {
   background-color: black;
